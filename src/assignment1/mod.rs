@@ -8,7 +8,7 @@ pub fn main() {
     // Stützstellen
     let support_points = vec![-PI, -PI / 4.0, 0.0, PI / 4.0, PI];
     // Funktionswerte an den Stützstellen
-    let function_values: Vec<f64> = support_points.iter().map(|&x| x.cos()).collect();
+    let function_values: Vec<f64> = support_points.iter().map(|&x| x.tan()).collect();
 
     //Anzahl der Stützstellen
     let n = support_points.len();
